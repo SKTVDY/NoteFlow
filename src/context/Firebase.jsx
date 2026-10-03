@@ -91,7 +91,6 @@ export const FirebaseProvider = (props) => {
 
         return remove(noteRef);
     };
-
     const updateNote = (noteId, updatedNote) => {
         const userId = firebaseauth.currentUser.uid;
         const noteRef = ref(db, `users/${userId}/notes/${noteId}`);
