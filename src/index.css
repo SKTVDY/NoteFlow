@@ -1,0 +1,135 @@
+@import "tailwindcss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+#forminput {
+  padding: 5px;
+}
+
+#loginbutton {
+  padding: 5px;
+  border: 1px solid black;
+}
+
+
+.popup {
+  padding: 15px;
+  backdrop-filter: blur(25px);
+  margin-top: 15px;
+  -webkit-backdrop-filter: blur(25px);
+}
+
+input {
+  padding: 5px;
+  margin: 5px;
+  /* border: 1px solid black; */
+}
+
+textarea {
+  padding: 5px;
+  margin: 5px;
+  /* border: 1px solid black; */
+}
+
+.left-sidebar {
+  transition: all 0.3s ease-in-out;
+}
+
+button {
+  padding: 5px;
+  cursor: pointer;
+  margin: 2px;
+}
+
+.list-items {
+  transition: all 0.3s ease-in-out;
+  padding: 5px;
+  margin: 2px;
+}
+
+#download {
+  padding: 10px;
+  margin: 10px;
+}
+
+/* textarea {
+  line-height: 1.5;
+  width: auto;
+} */
+
+.tasks {
+  padding: 5px;
+  margin: 5px;
+}
+
+.chatbot-display {
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.chatbot-display div {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  margin: 5px;
+  font-size: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#input-chatbot{
+  padding: 5px;
+  margin-bottom: 15px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+#input-area {
+  /* padding: 15px; */
+  margin-bottom: 15px;
+}
+
+#messages{
+  padding: 15px;
+  margin: 15px;
+}
+
+#message{
+  padding: 10px;
+  margin: 10px;
+}
+
+.EasyMDEContainer .CodeMirror {
+  background: #ffffff !important;
+  color: #000000 !important;
+}
+
+.EasyMDEContainer .CodeMirror-fullscreen {
+  background: #ffffff !important;
+  color: #000000 !important;
+}
+
+.EasyMDEContainer .editor-preview,
+.EasyMDEContainer .editor-preview-full {
+  background: #ffffff !important;
+  color: #000000 !important;
+}
+
+.EasyMDEContainer .CodeMirror pre {
+  white-space: pre-wrap !important;
+  word-break: break-word !important;
+  overflow-wrap: break-word !important;
+}
+.EasyMDEContainer .CodeMirror {
+  max-width: 100% !important;
+}
+
+.CodeMirror-scroll {
+  overflow-x: hidden !important;
+}
